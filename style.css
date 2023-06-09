@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.control-panel{
+    width:200px;
+    height: 700px;
+    float:left;
+    border:1px solid #444;
+}
+#draggable {width:fit-content;position:absolute;top:0;    z-index:10;}
+.area{width:700px; height:700px;border:1px solid #444; font-size: 50px;float:left;}
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    cursor: pointer;
+    font-family: Sacramento;
+
+
+}
+.btn-azalt{
+    background: red;
+    padding: 5px;
+    width:fit-content;
+    font-weight:700;
+    cursor: pointer;
+}
+.btn-artir{
+    background: red;
+    padding: 5px;
+    width:fit-content;
+    font-weight:700;
+    cursor: pointer;
+}
+.deneme{display: flex;flex-direction: row;}
+.btn-renk{
+    width:50px;
+    height:50px;
+    border-radius: 10px;
+}
